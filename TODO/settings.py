@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$$%q-3oj=6gr*__iq6=j*lp96zf=k085mvr4_yn=g$8)1vk^16'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','localhost','0.0.0.0','.pythonanywhere.com']
 
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'TODO.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'my_database',
+        'NAME': 'justtodoapp$my_database',
         'USER': 'justtodoapp',
         'PASSWORD': 'mysqlpass',
         'HOST': 'justtodoapp.mysql.pythonanywhere-services.com',
